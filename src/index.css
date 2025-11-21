@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.container2 {
+  @apply max-w-7xl w-full mx-auto xl:px-0 px-6;
+}
+[id] {
+  scroll-margin-top: 6rem; /* header yüksekliği kadar */
+}
+@layer components {
+  /* swipper */
+  .swiper-pagination-bullet {
+    background-color: #fff !important;
+    opacity: 1;
+    width: 20px;
+    height: 10px;
+    margin: 0 4px !important;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #22d3ee !important;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+
+    box-shadow: 0 0 5px 1px rgba(34, 211, 238, 0.5);
+  }
+
+  .swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover {
+    background: #4b5563;
+  }
+
+  /* Card */
+  .card-base {
+    @apply bg-gray-950/40 rounded-2xl border border-gray-800 transition-all duration-300;
+  }
+  .card-shadow-2xl {
+    @apply shadow-2xl shadow-cyan-900/30;
+  }
+}
