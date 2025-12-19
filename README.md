@@ -1,73 +1,67 @@
-# React + TypeScript + Vite
+## Codeverse – Modern Technology Company Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![View Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Now-%23308d46?style=for-the-badge)](https://codeverse-demo.netlify.app)
 
-Currently, two official plugins are available:
+**Codeverse**, This is a fully responsive and interactive landing page project designed for a modern technology company.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Developed using React, TypeScript, and Tailwind CSS, this project showcases modern web design approaches with powerful animations, dynamic timers, and slider components.
 
-## React Compiler
+It is optimized to provide a seamless user experience across mobile, tablet, and desktop devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* Modern Landing Page Design: Enterprise and contemporary interface for technology companies.
+* Scroll Animations: AOS (Animate On Scroll) provides smooth and striking transitions.
+* Animated Counters: Statistics and success highlights with react-countup
+* Slider Sections: Interactive slider areas created using Swiper.
+* Fully Responsive Layout: Design compatible with all screen sizes, including the mobile menu.
+* Clean Component Structure:Scalable and readable React component architecture.
+* Type-Safe Development: TypeScript provides a secure and sustainable code structure.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Technologies
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Frontend** | React, TypeScript | Component-based and type-safe modern UI development. |
+| **Styling** | Tailwind CSS | Utility-first, responsive design approach |
+| **Animations** | AOS | Scroll based animations |
+| **Counters** | react-countup | Animated display of numbers and statistics. |
+| **Slider** | Swiper | Touch-compatible, modern slider components. |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Installation and Operation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+You can follow these steps to run the project locally.
+
+### Prerequisites
+* Node.js (LTS recommended)
+* npm / yarn / pnpm
+
+### Steps
+
+1. Clone the repository.:
+   ```bash
+   git clone https://github.com/kadirsahmeran/codeverse.git
+   cd codeverse
+2.  Install dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+3.  Start the development server:
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+The app will automatically open in your local browser at **`http://localhost:5173/`**.
+
+
+
+
