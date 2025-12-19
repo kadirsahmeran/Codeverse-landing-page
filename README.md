@@ -1,6 +1,6 @@
 ## Codeverse – Modern Technology Company Landing Page
 
-[![View Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Now-%23308d46?style=for-the-badge)](https://codeverse-demo.netlify.app)
+[![View Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Now-%23308d46?style=for-the-badge)](https://the-codeversestudio.netlify.app/)
 
 **Codeverse**, This is a fully responsive and interactive landing page project designed for a modern technology company.
 
