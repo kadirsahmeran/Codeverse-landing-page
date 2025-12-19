@@ -46,8 +46,8 @@ You can follow these steps to run the project locally.
 
 1. Clone the repository.:
    ```bash
-   git clone https://github.com/kadirsahmeran/codeverse.git
-   cd codeverse
+   git clone https://github.com/kadirsahmeran/Codeverse-landing-page.git
+   cd Codeverse-landing-page
 2.  Install dependencies:
     ```bash
     npm install
